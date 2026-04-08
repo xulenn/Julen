@@ -75,9 +75,9 @@ p {
 /* TEXT */
 
 h1 {
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 600;
-  margin-bottom: 10px;
+  letter-spacing: -1px;
 }
 
 h1 span {
