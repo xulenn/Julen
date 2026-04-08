@@ -1,100 +1,136 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: #111;
-  background: #fff;
 }
 
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
+/* HERO */
 
 .hero {
-  text-align: center;
-  padding: 100px 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e9edf3, #cfd8e3);
+  display: flex;
+  flex-direction: column;
 }
+
+/* NAVBAR */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO CONTENT */
+
+.hero-content {
+  text-align: center;
+  margin: auto;
+  max-width: 700px;
+}
+
+/* AVATAR */
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* TEXT */
 
 h1 {
   font-size: 48px;
-  margin-bottom: 10px;
+}
+
+h1 span {
+  color: #3b82f6;
 }
 
 .subtitle {
-  color: #666;
-  font-size: 18px;
+  font-size: 20px;
+  color: #555;
 }
 
 .description {
-  max-width: 600px;
-  margin: 20px auto;
-  line-height: 1.6;
+  margin-top: 10px;
+  color: #666;
 }
+
+/* BUTTONS */
 
 .buttons {
   margin-top: 20px;
 }
 
 .btn {
-  display: inline-block;
+  padding: 12px 20px;
   margin: 5px;
-  padding: 10px 18px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
+  border-radius: 8px;
   text-decoration: none;
-  color: black;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
 }
 
 .btn.primary {
-  background: black;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
   color: white;
   border: none;
 }
 
+.btn.outline {
+  background: white;
+}
+
+/* ICONS */
+
+.icons {
+  margin-top: 20px;
+}
+
+.icons a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* SECTIONS */
+
 .section {
-  padding: 70px 20px;
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
 .section.light {
-  background: #f7f7f7;
+  background: #f5f5f5;
 }
 
-h2 {
-  margin-bottom: 20px;
-}
-
-.two-col {
-  display: grid;
-  gap: 40px;
-}
-
-.highlight-box {
-  background: #f7f7f7;
-  padding: 20px;
-}
-
-.cards {
-  display: grid;
-  gap: 15px;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  border: 1px solid #eee;
-}
+/* SKILLS */
 
 .skills span {
   display: inline-block;
-  padding: 8px 12px;
   margin: 5px;
-  background: #f2f2f2;
-  font-size: 14px;
-}
-
-footer {
-  text-align: center;
-  padding: 30px;
-  color: #777;
+  padding: 8px 12px;
+  background: #eee;
+  border-radius: 6px;
 }
