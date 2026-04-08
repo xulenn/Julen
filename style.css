@@ -168,3 +168,41 @@ h1 span {
   background: #eee;
   border-radius: 6px;
 }
+/* your existing code above */
+
+/* --- ABOUT SECTION --- */
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text {
+  line-height: 1.7;
+  color: #444;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #e9eef5;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
