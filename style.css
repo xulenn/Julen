@@ -30,12 +30,6 @@ p {
   backdrop-filter: blur(2px);
 }
 
-.hero-image {
-  width: 20px !important;
-  height: auto;
-  display: block;
-  margin: 0 auto 25px auto;
-}
 /* NAVBAR */
 
 .nav {
