@@ -31,8 +31,8 @@ p {
 }
 
 .hero-image {
-  width: 160px;
-  max-width: 60%;
+  width: 200px !important;
+  height: auto;
   display: block;
   margin: 0 auto 25px auto;
 }
